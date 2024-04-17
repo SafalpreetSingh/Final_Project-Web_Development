@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgb(89, 83, 80),rgb(255, 255, 255));
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-image: url("../images/gymmm.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    color: white;
+}
+
+nav ul li a{
+    padding: 10px 40px;
+}
+
+h2,h3{
+    font-family: 'Georgia', 'Times New Roman', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 4px,4px,black;
+}
+
+.item33 h3, .item50 p, .item50 h3, #copyright{
+    color: white;
+}
+
+h3{
+    font-size: 1em;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: 500;
+    line-height: 300%;
+    margin:0;
+    font-weight:bold;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #eee;
+}
+
+h1,nav,#copyright{
+    text-align: center;
+}
+
+h1 a:hover{
+    text-shadow: 2px 2px 10px white;
+}
+
+h1,nav,footer{
+    font-family: 'Georgia', 'Times New Roman', 'sans-serif';
+}
+
+p{
+    font-family: 'Georgia', 'Times New Roman', 'sans-serif';
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+
+h2,nav a{
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  section {
+    background: linear-gradient(rgb(96, 95, 95),rgb(255, 255, 255));
+    background-color:grey;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    box-shadow: 0px 0px 5px white;
+    margin-right: 60px;
+  }
+  
+  .contact-form {
+    order: 1;
+  }
+  
+  .contact-info {
+    order: 2;
+  }
+  
+  .gym-services {
+    order: 3;
+  }
+  
+  .staff-info {
+    order: 4;
+  }
+  
+  .location-map {
+    order: 5;
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+
+  footer{
+    background-image: url("../images/rack3.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 10px 10%;
+    margin-top: 20px;
+    font-size: Medium;
+    text-align: center;
+}
+  
+footer nav a{
+    color:#eee;
+    display: block;
+    padding: 0;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+    /* width:auto; */
+    margin: 0 10% 0 10%;
+}
+
+.item50 a{
+    text-decoration: none;
+    color: white;
+}
+
+.item33{
+    float: left;
+    width: 25%;
+}
+
+.item50{
+    width: 25%;
+    float: left;
+    margin-left: 50%;   
+}
+
+nav a:hover{
+    text-shadow: 0px 0px 1px rgb(20,70,20);
+}
+
+footer nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+#copyright{
+    clear: both;
+}

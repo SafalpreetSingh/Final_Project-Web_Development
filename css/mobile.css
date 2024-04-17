@@ -1,0 +1,32 @@
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+
+nav{
+    border-bottom: 1px solid rgb(158,194,143);
+    
+    float: none;
+}
+
+.item25{
+    width:100%;
+}
+
+nav li{
+    display: block;
+}
+
+#categories img{
+    height: 120px;
+    width: 120px;
+}
+
+footer .item33{
+    float: none;
+    display: block;
+    padding-left: 40%;
+}
+

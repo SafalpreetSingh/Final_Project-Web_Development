@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Registration Form</title>
+  <link rel="stylesheet" href="../css/reg.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html"><b>Home</b></a></li>
+            <li><a href="/webpages/membership.html"><b>Membership</b></a></li>
+            <li><a href="/webpages/Suppliments.html"><b>Diet & Suppliments</b></a></li>
+            <li><a href="/webpages/ContactUs.html"><b>Contact Us</b></a></li>
+            <li><a href="./Registration.html"><b>Register</b></a></li>
+    
+        </ul>  
+    </nav>
+    <header>
+        <h1><a href="../index.html">MuscleHolics</a></h1>
+    </header>
+  <div class="container">
+    <form id="registrationForm" action="../webpages/message.html">
+      <h2>Register for Our Gym</h2>
+      <div class="input-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="input-group">
+        <label for="membership">Membership Plan:</label>
+        <select id="membership" name="membership" required>
+          <option value="">Select</option>
+          <option value="basic">Basic</option>
+          <option value="standard">Standard</option>
+          <option value="premium">Premium</option>
+        </select>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="item33">
+            <h3>Quick Links</h3>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li><br>
+                    <li><a href="../webpages/membership.html">Membership</a></li><br>
+                    <li><a href="../webpages/Suppliments.html">Diet & Suppliments</a></li><br>
+                    <li><a href="../webpages/ContactUs.html">Contact Us</a></li><br>
+                    <li><a href="../webpages/Registration.html">Register</a></li>
+                </ul>  
+            </nav>
+    </div>
+    <div class="item50">
+        <h3>Address</h3>
+        <address>
+            <p> 205 Humber College Etobicoke, ON M9W 5L7 </p>
+            <p> Etobicoke, ON, M9W 5L7, Canada</p>
+            <p class="desktop">Phone: (905) 324-1221</p>
+            <p class="mobile">Phone: <a href="tel:9055509581">(905) 550-9581</a></p>
+            <p>email: <a href="mailto:contactus@muscleholics">contactus@muscleholics.com</a></p>
+        </address>
+        <br>
+        <br>
+    </div>
+    </div>
+    <p id="copyright">&copy; Created By Safalpreet.</p>
+</footer>
+
+  <script src="../js/registration.js"></script>
+</body>
+</html>
