@@ -17,6 +17,10 @@ nav{
 
 nav li{
     display: block;
+    width: 100%;
+}
+nav a{
+    display: block;
 }
 
 #categories img{
@@ -27,6 +31,25 @@ nav li{
 footer .item33{
     float: none;
     display: block;
-    padding-left: 40%;
+    width: auto;
 }
+footer .item50{
+    margin-left: 0;
+    width: auto;
 
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main
+{
+    flex-direction: column;
+   
+}
+main section
+{
+    max-width: 100%;
+    width: 90%;
+}

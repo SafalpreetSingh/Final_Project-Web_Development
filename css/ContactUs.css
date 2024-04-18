@@ -6,7 +6,7 @@ body {
     color: #333;
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(rgb(89, 83, 80),rgb(255, 255, 255));
+    background: linear-gradient(rgb(243, 199, 178),rgb(255, 255, 255));
     background-attachment: fixed;
   }
   
@@ -91,7 +91,7 @@ h2,nav a{
   }
   
   section {
-    background: linear-gradient(rgb(96, 95, 95),rgb(255, 255, 255));
+    background: linear-gradient(rgb(243, 199, 178),rgb(255, 255, 255));
     background-color:grey;
     border-radius: 5px;
     padding: 20px;
